@@ -32,25 +32,27 @@ Alert Created
 
 A scheduled alert named Failed Logon Detection was created in Splunk using the failed logon search. The alert was configured to trigger when the number of results was greater than zero and to add matching events to Triggered Alerts.
 
-Project Structure
-docs/architecture.md
-docs/lessons_learned.md
-screenshots/
-Screenshots
-01-splunk-web-ui-running.png
-02-splunk-boot-start-enabled.png
-03-splunk-receiver-port-9997-enabled.png
-04-ubuntu-vm-nat-ip-address.png
-05-virtualbox-nat-port-forwarding-9997.png
-06-windows-localhost-port-9997-test-success.png
-07-splunk-universal-forwarder-installed.png
-08-uf-outputs-conf-configured.png
-09-uf-inputs-conf-wineventlog-enabled.png
-10-splunk-forwarder-service-restarted.png
-11-windows-event-logs-ingested-in-splunk.png
-12-windows-security-logs-in-splunk.png
-13-failed-logon-event-4625-detected.png
-14-failed-logon-alert-created.png
-Conclusion
+## Project Structure
+
+- [docs/architecture.md](docs/architecture.md)
+- [docs/lessons_learned.md](docs/lessons_learned.md)
+- [screenshots/README.md](screenshots/README.md)
+
+## Screenshots
+
+See the full screenshot index here:
+
+- [screenshots/README.md](screenshots/README.md)
+
+Key evidence included:
+- Splunk Enterprise running on Ubuntu
+- Receiver port 9997 enabled
+- Windows Universal Forwarder installed and configured
+- Windows Event Logs successfully ingested into Splunk
+- Windows Security logs searchable in Splunk
+- Failed logon detection using EventCode 4625
+- Scheduled failed logon alert created
+
+## Conclusion
 
 This lab provided a practical foundation for SIEM administration and analyst-style detection work. It demonstrates the full path from Splunk setup to Windows log ingestion, detection validation, and alert creation in a controlled lab environment.
