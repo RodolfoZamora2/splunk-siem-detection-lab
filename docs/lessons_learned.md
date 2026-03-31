@@ -40,10 +40,10 @@ index=* sourcetype=WinEventLog:Security EventCode=4625
 ```
 made the detection more accurate and relevant.
 
-7. Documentation makes the project stronger
+## 7. Documentation makes the project stronger
 
 Capturing screenshots at each milestone created proof for setup, ingestion, detection, and alerting, which makes the project stronger both for learning and for GitHub presentation.
 
-Final Takeaway
+## Final Takeaway
 
 This project showed how to build, test, troubleshoot, and document a basic SIEM workflow end to end in a home lab environment.
