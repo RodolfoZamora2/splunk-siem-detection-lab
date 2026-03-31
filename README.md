@@ -28,9 +28,9 @@ index=* sourcetype=WinEventLog:Security EventCode=4625
 ```
 This search was validated by intentionally generating a failed logon attempt on the Windows host and confirming the event appeared in Splunk.
 
-Alert Created
+## Alert Created
 
-A scheduled alert named Failed Logon Detection was created in Splunk using the failed logon search. The alert was configured to trigger when the number of results was greater than zero and to add matching events to Triggered Alerts.
+A scheduled alert named **Failed Logon Detection** was created in Splunk using the failed logon search. The alert was configured to trigger when the number of results was greater than zero and to add matching events to **Triggered Alerts**.
 
 ## Project Structure
 
