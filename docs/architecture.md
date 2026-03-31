@@ -42,8 +42,8 @@ index=* sourcetype=WinEventLog:Security EventCode=4625
 ```
 This search was validated by intentionally generating failed logon attempts on the Windows host and confirming the events appeared in Splunk.
 
-Diagram
-
+## Diagram
+```text
 Windows 11 Host
  ├─ Security / System / Application Logs
  └─ Splunk Universal Forwarder
